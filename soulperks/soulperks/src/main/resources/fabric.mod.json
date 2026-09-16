@@ -1,0 +1,21 @@
+{
+	"schemaVersion": 1,
+	"id": "soulperks",
+	"version": "${version}",
+	"name": "Soul Perks",
+	"description": "Kill a player to take their Soul. Throw it into the void to choose one of 3 stacking perks.",
+	"authors": ["CedJ"],
+	"license": "All-Rights-Reserved",
+	"icon": "assets/soulperks/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": ["com.cedj.soulperks.SoulPerks"],
+		"client": ["com.cedj.soulperks.client.SoulPerksClient"]
+	},
+	"depends": {
+		"fabricloader": ">=0.16.0",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
